@@ -31,7 +31,7 @@ FirstApp::Application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
-
+  root 'welcome#index'
   # Example resource route with more complex sub-resources:
   #   resources :products do
   #     resources :comments

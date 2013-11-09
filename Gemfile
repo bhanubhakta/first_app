@@ -7,6 +7,8 @@ group :production, :staging do
   gem "pg"
 end
 
+gem 'thin'
+gem 'rails_12factor', group: :production
 group :development, :test do
   gem "sqlite3"
 end
