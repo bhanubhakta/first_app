@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 group :production, :staging do
-  gem "pg"
+	gem "pg"
 end
 
 gem 'thin'
@@ -42,7 +42,7 @@ group :doc do
 end
 
 group :development, :test do
-  gem 'rspec-rails'
+	gem 'rspec-rails'
 end
 
 # Use ActiveModel has_secure_password

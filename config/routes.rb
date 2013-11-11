@@ -1,4 +1,6 @@
 FirstApp::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/help"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -31,7 +33,7 @@ FirstApp::Application.routes.draw do
   #     resources :comments, :sales
   #     resource :seller
   #   end
-  root 'welcome#index'
+  # root 'welcome#index'
   # Example resource route with more complex sub-resources:
   #   resources :products do
   #     resources :comments
