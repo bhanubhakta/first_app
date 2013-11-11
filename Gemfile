@@ -10,7 +10,7 @@ end
 gem 'thin'
 gem 'rails_12factor', group: :production
 group :development, :test do
-  gem "sqlite3"
+	gem 'mysql2'
 end
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
@@ -39,6 +39,10 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development, :test do
+  gem 'rspec-rails'
 end
 
 # Use ActiveModel has_secure_password
