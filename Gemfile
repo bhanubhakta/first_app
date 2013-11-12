@@ -45,6 +45,15 @@ group :development, :test do
 	gem 'rspec-rails'
 end
 
+gem "capybara"
+gem "guard-rspec"
+
+
+group :test do
+	gem 'rb-inotify'
+	gem 'libnotify'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
